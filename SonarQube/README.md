@@ -29,9 +29,4 @@ docker run -ti -v $(pwd):/usr/src --link sonarqube newtmitch/sonar-scanner sonar
   -Dsonar.projectBaseDir=/usr/src \
   -Dsonar.sources=.
 ```
-### -D : 對 SonarQube 的 property 進行設定
-* sonar.projectKey：SonarQube 對專案的 key，內部將以此 key 作為識別，必須唯一
-* sonar.sources：SonarQube 要檢查的目錄，因為已經在專案目錄下，. 即為 目前目錄
-* sonar.projectName：在 SonarQube 網頁上顯示的名稱
-* sonar.projectVersion：在 SonarQube 網頁上顯示的版本編號
-* sonar.exclusions：不受 SonarQube 檢查的目錄，如 PHP packgage 放在 vendor 目錄下，實務上我們不會讓 SonarQube 去檢查 package，會加以排除
+* sonar.exclusions：不受 SonarQube 檢查的目錄
