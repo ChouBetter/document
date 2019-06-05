@@ -2,10 +2,10 @@
 https://github.com/newtmitch/docker-sonar-scanner
 
 ### 如何使用 SonarQube 檢查 PHP 專案？
+https://oomusou.io/sonarqube/php/
 * SonarQube
 * SonarQube Scanner
 * Jenkins
-* https://oomusou.io/sonarqube/php/
 
 Using the official Sonar Qube Docker image:
 ```
