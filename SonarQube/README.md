@@ -7,12 +7,12 @@ https://oomusou.io/sonarqube/php/
 * SonarQube Scanner
 * Jenkins
 
-Using the official Sonar Qube Docker image:
+### Run Sonar Qube Server
 ```
 docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
 ```
 
-Run SonarQube Scanner
+### Run Sonar Scanner
 ```
 docker run -ti -v $(pwd):/usr/src --link sonarqube newtmitch/sonar-scanner
 docker run -ti -v $(pwd):/usr/src --link sonarqube newtmitch/sonar-scanner:alpine
