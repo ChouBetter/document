@@ -18,7 +18,7 @@ docker run -ti -v $(pwd):/usr/src --link sonarqube newtmitch/sonar-scanner
 docker run -ti -v $(pwd):/usr/src --link sonarqube newtmitch/sonar-scanner:alpine
 ```
 
-Fully-loaded command line
+### Fully-loaded command line
 ```
 docker run -ti -v $(pwd):/usr/src --link sonarqube newtmitch/sonar-scanner sonar-scanner \
   -Dsonar.host.url=http://sonarqube:9000 \
