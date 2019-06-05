@@ -1,9 +1,7 @@
-# document
-
-# Quick sonar scanner docker image
+### Quick sonar scanner docker image
 https://github.com/newtmitch/docker-sonar-scanner
 
-# 如何使用 SonarQube 檢查 PHP 專案？
+### 如何使用 SonarQube 檢查 PHP 專案？
 https://oomusou.io/sonarqube/php/
 
 SonarQube
