@@ -30,3 +30,12 @@ docker run -ti -v $(pwd):/usr/src --link sonarqube newtmitch/sonar-scanner sonar
   -Dsonar.sources=.
 ```
 * sonar.exclusions：不受 SonarQube 檢查的目錄
+
+### success case
+```
+docker run -ti -v $(pwd):/root/src --link sonarqube newtmitch/sonar-scanner:alpine sonar-scanner \
+  -Dsonar.projectKey=MyProjectKey \
+  -Dsonar.projectName="My Project Name" \
+  -Dsonar.projectVersion=1
+ ```
+ 
