@@ -30,8 +30,8 @@ docker run -ti -v $(pwd):/usr/src --link sonarqube newtmitch/sonar-scanner sonar
   -Dsonar.sources=.
 ```
 * sonar.exclusions：不受 SonarQube 檢查的目錄
-PHP CodeIgniter exclusion Path
 ```
+// PHP CodeIgniter exclusion Path
 -Dsonar.exclusions=system/**,application/config/**,application/third_party/**,application/logs/**
 ```
 
