@@ -33,6 +33,9 @@ docker run -ti -v $(pwd):/usr/src --link sonarqube newtmitch/sonar-scanner sonar
 ```
 // PHP CodeIgniter exclusion Path
 -Dsonar.exclusions=system/**,application/config/**,application/third_party/**,application/logs/**,index.php
+
+// VUE webpack exclusion Path
+-Dsonar.exclusions=assets/**
 ```
 
 ### Scanner SUCCESS CASE
