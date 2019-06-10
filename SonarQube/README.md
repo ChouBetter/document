@@ -43,3 +43,5 @@ docker run -ti -v $(pwd):/root/src --link sonarqube newtmitch/sonar-scanner:alpi
   -Dsonar.projectVersion=1
  ```
  
+ ### 如何不啟用 SonarQube 內建的 Rule ?
+https://oomusou.io/sonarqube/deactivate-rule/
