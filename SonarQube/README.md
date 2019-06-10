@@ -32,7 +32,7 @@ docker run -ti -v $(pwd):/usr/src --link sonarqube newtmitch/sonar-scanner sonar
 * sonar.exclusions：不受 SonarQube 檢查的目錄
 ```
 // PHP CodeIgniter exclusion Path
--Dsonar.exclusions=system/**,application/config/**,application/third_party/**,application/logs/**
+-Dsonar.exclusions=system/**,application/config/**,application/third_party/**,application/logs/**,index.php
 ```
 
 ### Scanner SUCCESS CASE
